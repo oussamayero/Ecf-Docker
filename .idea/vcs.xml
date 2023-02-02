@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ECF Front Oussama" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ECFDOCKER2/ECF_docker_localib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Front ecf/ECF2-Front-CDA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Salut/ECF_docker_localib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backeECF/ECF_CDA_Localib_Back" vcs="Git" />
+  </component>
+</project>

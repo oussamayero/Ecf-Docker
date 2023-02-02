@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  mongo_db:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+  api_back:
+    build: ./back ecf
+    container_name: localib
+    restart: always
+    depends_on:
+      - mongo_db
+    ports:
+      - 8080:8080
+  api_front:
+    build: ./EFC Front Oussama
+    container_name: localib
+    depends_on:
+      - api_back
+    ports:
+      - 4200:4200
